@@ -1,2 +1,6 @@
 jdk:
   - openjdk17
+before_install:
+  - ./gradlew dependencies
+install:
+  - ./gradlew install
